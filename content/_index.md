@@ -1,5 +1,7 @@
 # SSLAB Reading Club
 ---
+![wtf](/1a9.gif)
+
 
 ## Details
 - **Organizer**: Kha
@@ -15,6 +17,11 @@ We will have informal discussion of recent system security papers. The organizer
 You can also your discussion topics, or simply ask questions.
 
 It is best that every participant should read the paper beforehand and try to bring some discussions / questions to the meeting. 
+
+The discussion topics could be, but not limited to:
+- Comparison with previous approach & novelty
+- Limitations & future work
+- Specific techniques used in the paper
 
 <!-- I think the most simple way to bring discussions is to try to answer a question about the paper and convince everyone about your answer.  -->
 <!-- For example, some questions might be: -->
@@ -33,3 +40,7 @@ It is best that every participant should read the paper beforehand and try to br
 | Paper | Published At | 
 | --- | --- | 
 | [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |SOSP '21 |
+| [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) | OSDI '20' |
+| [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |SOSP '21 |
+| [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |SOSP '21 |
+
