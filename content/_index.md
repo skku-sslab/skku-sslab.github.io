@@ -8,9 +8,11 @@
 - **Meeting time**: Friday weekly, 2-3pm
 - **Location**: Online?
 
-
-*Next meeting*: [Cross-Language Attacks (NDSS '22)](https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf)
-
+### *Next meeting*
+- **Paper**: [Cross-Language Attacks (NDSS '22)](https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf)
+- **Program**:
+  - Lorem
+  - Ipsum
 
 ## Format 
 We will have informal discussion of recent system security papers. The organizer will choose the paper, but we can decide on the next paper at the meeting.
