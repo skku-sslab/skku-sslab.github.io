@@ -1,7 +1,9 @@
 baseURL: "https://skku-sslab.github.io/"
 title: ExampleSite
 paginate: 5
-theme: PaperMod
+theme: 
+  - PaperMod
+  - hugo-cite
 
 enableRobotsTXT: true
 buildDrafts: false
