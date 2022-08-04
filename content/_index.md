@@ -20,6 +20,7 @@ It is best that every participant should read the paper beforehand and try to br
 
 The discussion topics could be, but not limited to:
 - Comparison with previous approach & novelty
+- Related works
 - Limitations & future work
 - Specific techniques used in the paper
 
