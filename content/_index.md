@@ -10,7 +10,7 @@
 - **Location**: Online?
 
 ### *Next meeting*
-- **Paper**: [Cross-Language Attacks (NDSS '22)](https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf)
+- **Paper**: [RedLeaf: Isolation and Communication in a Safe Operating System (OSDI '20)](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram)
 - **Program**:
   - Lorem
   - Ipsum
