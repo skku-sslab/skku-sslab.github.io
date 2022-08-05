@@ -1,9 +1,8 @@
 baseURL: "https://skku-sslab.github.io/"
-title: ExampleSite
+title: Reading Club
 paginate: 5
 theme: 
   - PaperMod
-  - hugo-cite
 
 enableRobotsTXT: true
 buildDrafts: false
