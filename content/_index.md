@@ -1,3 +1,12 @@
+---
+Params:
+    editPost:
+        URL: https://github.com/skku-sslab/skku-sslab.github.io/edit/main/content/_index.md
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+---
+
+
 # SSLAB Reading Club
 ---
 ![wtf](/1a9.gif)
