@@ -24,7 +24,7 @@ It is best that every participant should read the paper beforehand and try to br
 The discussion topics could be, but not limited to:
 - Comparison with previous approach & novelty
 - Related works
-- Limitations & future work
+- Limitations & future work, papers that are inspired by this work
 - Specific techniques used in the paper
 
 <!-- I think the most simple way to bring discussions is to try to answer a question about the paper and convince everyone about your answer.  -->
