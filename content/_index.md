@@ -1,4 +1,5 @@
 ---
+title: "SSLAB Reading Club" # in any language you want
 Params:
     editPost:
         URL: https://github.com/skku-sslab/skku-sslab.github.io/edit/main/content/_index.md
