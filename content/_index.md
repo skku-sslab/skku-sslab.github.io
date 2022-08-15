@@ -6,14 +6,12 @@
 
 ## Details
 - **Organizer**: Kha
-- **Meeting time**: Friday weekly, 2-3pm
+- **Meeting time**: Friday weekly, 5-6pm
 - **Location**: Online?
 
 ### *Next meeting*
-- **Paper**: [RedLeaf: Isolation and Communication in a Safe Operating System (OSDI '20)](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram)
-- **Program**:
-  - Lorem
-  - Ipsum
+- **Paper**: [KSplit: Automating Device Driver Isolation (OSDI '22)](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram)
+
 
 ## Format 
 We will have informal discussion of recent system security papers. The organizer will choose the paper, but we can decide on the next paper at the meeting.
@@ -27,24 +25,13 @@ The discussion topics could be, but not limited to:
 - Limitations & future work, papers that are inspired by this work
 - Specific techniques used in the paper
 
-<!-- I think the most simple way to bring discussions is to try to answer a question about the paper and convince everyone about your answer.  -->
-<!-- For example, some questions might be: -->
-<!-- - What are the problem addressed by the papers? What did the paper (and other papers) say about the challenges?  -->
-<!-- - What were the previous approaches, and how did the proposed methods improves over the previous approaches? -->
-<!-- - Is there still open challenges? -->
-<!-- - Does the proposed approach requires any assumptions? Are they reasonable? -->
-<!-- - What could be done differently if you were to solve the same challenges? -->
-
 
 ## Previous Meetings
 | Date | Paper |
 | --- | --- | 
-| | [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |
+| 12-08-22 | [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram)  |
 ## Candidate Papers 
 | Paper | Published At | 
 | --- | --- | 
-| [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |SOSP '21 |
-| [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) | OSDI '20' |
-| [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |SOSP '21 |
 | [Isolation in Rust: What is Missing?](https://dl.acm.org/doi/10.1145/3477113.3487272) |SOSP '21 |
 
