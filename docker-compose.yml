@@ -1,0 +1,26 @@
+version: '2.4'
+
+services:
+  
+  sslab-web:
+    container_name: sslab-web
+    restart: unless-stopped
+    image: bretfisher/jekyll-serve:latest
+    volumes:
+      - .:/site
+    environment:
+      USE_SSL: 'true'
+      REVERSE_PROXY: 'true'
+      USE_RELOAD: 'false'
+      COMPOSE_PROJECT_NAME: web-services
+      VIRTUAL_HOST: sslab.skku.edu
+      LETSENCRYPT_HOST: sslab.skku.edu
+      LETSENCRYPT_EMAIL: hojoon.lee@skku.edu
+      JEKYLL_ENV: production
+      # VIRTUAL_PORT: 4000
+    
+      
+networks:
+  default:
+    external:
+      name: webproxy

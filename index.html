@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SSLab - Home</title>
+  <meta name="description"
+    content="System Security Lab at Sunkyunkwan University.">
+  <link rel="stylesheet" href="https://sslab.skku.edu/css/main.css">
+  <link rel="canonical" href="https://sslab.skku.edu/">
+  <link rel="shortcut icon" type="image/x-icon" href="https://sslab.skku.edu/images/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://sslab.skku.edu/js/bootstrap.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <!-- 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82472331-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+   -->
+
+</head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="https://sslab.skku.edu/" ">
+				<img  src="https://sslab.skku.edu/images/sslab-logo.png">
+			</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li ><a class="nav-link active" href="https://sslab.skku.edu/#">Home</a></li>
+				<li><a class="nav-link" href="https://sslab.skku.edu/#research">Research</a></li>
+				<li><a class="nav-link"  href="https://sslab.skku.edu/#people">Members</a></li>
+				<li><a class="nav-link"  href="https://sslab.skku.edu/#publications">Publications</a></li>
+				<li><a class="nav-link"  href="https://sslab.skku.edu/#courses">Courses</a></li>
+				<li><a class="nav-link"  href="https://sslab.skku.edu/#sslab-ctf">SSLab-CTF</a></li>
+				<!-- <li><a href="https://sslab.skku.edu/#contact">Contact</a></li> -->
+				<!-- <li><a href="https://ctf.skku.edu">SSLab-CTF</a></li> -->
+				<!-- <li><a href="https://sslab.skku.edu/research">Research</a></li>
+ -->
+				<!-- <li><a href="https://sslab.skku.edu/pictures">(Pics)</a></li> -->
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- For nav highlight -->
+<script>
+	$(".nav .nav-link").on("click", function(){
+   		$(".nav").find(".active").removeClass("active");
+   		$(this).addClass("active");
+	});	
+</script>
+
+
+    <div class="container-fluid">
+        <h1 id="welcome-to-sslab">Welcome to SSLab!</h1>
+
+<hr />
+
+<!-- divider -->
+<div class="row">
+  <!-- Description -->
+  <div id="homeid" class="col-golden-lg" style="padding-right:0px;">
+
+    <p><!-- Carousel code --></p>
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+          <!-- Menu -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+        </ol>  
+        <!-- Items -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="https://sslab.skku.edu/images/carousel/hackathon.jpg" alt="Slide 1" />
+            </div>
+            <div class="item">
+                <img src="https://sslab.skku.edu/images/carousel/lab-space.jpg" alt="Slide 2" />
+            </div>
+            <div class="item">
+                <img src="https://sslab.skku.edu/images/carousel/namespace.jpg" alt="Slide 2" />
+            </div>
+        </div>
+
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+
+    <hr />
+
+    <div class="content-block">
+      <p>시스템 보안 연구실 (SSLab)은 열정 있는 학생들을 기다리고 있습니다. 저희 연구실은 뭔가를 만들고, 고장내고, 고치는 걸 좋아하는 자신도 모르게 해커 기질을 가진 여러분들을 찾고 있습니다. SSLab은 소프트웨어 및 시스템 보안 분야 연구를 중점적으로 연구하지만, 학생 개인의 연구 분야 선택에 최대한 자유를 보장하고 있기도 합니다. 또한, 체계적인 신입생 교육 프로그램을 통해 자신의 연구 주제를 만들어 갈 수 있도록 지원합니다. SSLab의 철학은 구성원 개개인이 연구를 하는 가장 큰 동기부여가 재미가 되도록 하는 것입니다. 현재 저희 연구실은 아래와 같은 포지션을 모집하고 있습니다:</p>
+
+      <p>We are looking for passionate students who would be interested in doing research at SSLab. The most important qualification that we want from you is that you inherently enjoy hacking and fixing stuff. While SSLab focuses on software and systems security, the most important criteria in choosing a student research topic is that you have fun exploring the topic. So, do not hesitate to talk to us if you are interested:) Currently, I have the following positions open:</p>
+
+      <ul>
+        <li>Undergraduate Research Internship (학부연구생)</li>
+        <li>Masters Students</li>
+        <li>Doctoral Students</li>
+        <li>Post-Doctoral Researchers</li>
+      </ul>
+    </div>
+  </div>
+  <div id="newsid" class="col-golden-sm">
+
+    <div class="well">
+      <p>-------------------------------------</p>
+
+      <p style="text-align: center;"><b>News</b></p>
+
+      <p>-------------------------------------</p>
+
+      <p><b>- [Nov. 07 2020]</b></p>
+
+      <p>New Lab Website!</p>
+
+      <p><b>- [Nov. 02 2019]</b></p>
+
+      <p><b>* Hojoon Lee joins SKKU *</b><br />Hojoon Lee has joined the Dept. of CSE @ SKKU as an assistant professor as of Sept. 02, 2019. He will be leading Systems Security Lab.</p>
+
+      <p><u><a href="https://sslab.skku.edu/allnews.html">All news...</a></u></p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Remaining sections -->
+<!-- Research -->
+
+<h2 id="research">Research</h2>
+<hr />
+<div class="content-block">
+
+  <p>At Systems Security Lab, we focuse on retrofitting security architecture in today’s computing systems against constantly evolving threats. We look at systems with attacker’s perspectives, to discover new attacks and build secure systems.</p>
+
+  <div class="row">
+    <p><img src="https://sslab.skku.edu/images/sw-sec.png" alt="swsec" style="width: 120px; float: left; border: 10px; margin-right: 40px;margin-left: 30px;" /></p>
+
+    <p><strong>Software and Operating Systems Security</strong></p>
+
+    <p>Software Attacks and Defenses</p>
+
+    <p>Operating Systems Security</p>
+
+  </div>
+
+  <hr />
+
+  <div class="row">
+
+    <p><img src="https://sslab.skku.edu/images/hw-sec.png" alt="hwsec" style="width: 120px; float: left; border: 10px; margin-right: 40px; margin-left: 30px;" /></p>
+
+    <p><strong>Hardware-assisted Security</strong></p>
+
+    <p>Trusted Execution Environments</p>
+
+    <p>HW-accelerated security monitoring</p>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <p><img src="https://sslab.skku.edu/images/ai-sec.png" alt="aisec" style="width: 120px; float: left; border: 10px; margin-right: 40px;margin-left: 30px;" /></p>
+
+    <p><strong>Secure Computation for AI</strong></p>
+
+    <p>Trusted AI Computation in Cloud</p>
+
+    <p>Privacy-preserving AI</p>
+  </div>
+
+</div>
+
+<!-- Members -->
+
+<h2 id="people">People</h2>
+
+<hr />
+
+<h3 id="leader">Leader</h3>
+<hr />
+
+<div id="gridid" class="col-sm-12">
+
+  <div class="row">
+
+    <div class="col-sm-3 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/hojoon.jpg" class="img-responsive" width="180px" style="float: left" /></p>
+    </div>
+
+    <div class="col-sm-9 clearfix">
+      <h4><b>Hojoon Lee</b></h4>
+      <h4>Assistant Professor</h4>
+      <p><img src="https://sslab.skku.edu/images/emails/hojoon.png" style="width: 150px; height: auto; margin-top: 0px;  box-shadow: None;" /><br /><!--   <i><br>email: <hojoon.lee@skku.edu></i>
+ --><a href="https://hojoon-lee.github.io/">
+<b>Personal Page</b>
+</a> 
+<a href="https://sslab.skku.edu/resources/hojoonlee-cv.pdf">
+<b>CV</b>
+</a><br /></p>
+
+      <div class="member-description">
+        <p>Prof. Hojoon Lee is currently an assistant professor at <a href="https://cs.skku.edu">Dept. of Computer Science and Engineering</a> at <a href="https://www.skku.edu">Sungkyunkwan University</a> since September, 2019. Prior to his current position, he spent one year as a postdoctoral researcher at <a href="https://www.cispa.saarland">CISPA</a> under supervison of <a href="https://www.infsec.cs.uni-saarland.de/~backes/">Prof. Michael Backes</a>. He recevied my Ph.D from KAIST in 2018 advised by <a href="https://cysec.kaist.ac.kr/brentkang/brentkang.html">Prof. Brent Byunghoon Kang</a> and his B.S. from <a href="https://www.utexas.edu">The University of Texas at Austin</a>. His main research interests lie in retrofitting security in computing systems against today’s advanced threats. His research interests include but not limited to Operating System Security, Trusted Execution Environments, Program Analysis, Software Security, and Secure AI Computation in Cloud.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h3 id="phdmsc-students">PhD/MSc Students</h3>
+
+<hr />
+
+<div id="gridid" class="col-sm-12">
+
+  <div class="row">
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/khadinh.jpg" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Duy Kha Dinh</b></h4>
+      <h4>Intergrated Master-PhD Student</h4>
+      <p><img src="https://sslab.skku.edu/images/emails/kha.png" style="width: 140px; height: auto; margin-top: 0px; margin-bottom: 0px; box-shadow: None;" /><br /><!--   <i><br>email: <></i>
+ --><br /></p>
+
+      <div class="member-description">
+        <p>Kha Dinh is currently an integrated MS-PhD student at Sungkyunkwan University, South Korea. He graduated from Hochiminh University of Technology, Vietnam in 2018, majored in Computer Science. His main research interests are Trusted Execution Environments, Hardware Assisted Security and designing secure systems.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/siwon.jpg" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Siwon Heo</b></h4>
+      <h4>Undergraduate-Master’s Integrated Student</h4>
+      <p><img src="https://sslab.skku.edu/images/emails/sw.png" style="width: 140px; height: auto; margin-top: 0px; margin-bottom: 0px; box-shadow: None;" /><br /><!--   <i><br>email: <calvin0420@g.skku.edu></i>
+ --><br /></p>
+
+      <div class="member-description">
+        <p>Research topics: ML-based code analysis, Malware analysis</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Taehyun Noh</b></h4>
+      <h4>Master’s Student</h4>
+      <!--   <i><br>email: <></i>
+ -->
+      <p><br /></p>
+
+      <div class="member-description">
+        <p>Research topics: Intra-process isolation. Safe programming languages.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Hajeong Lim</b></h4>
+      <h4>Master’s student</h4>
+      <!--   <i><br>email: <></i>
+ -->
+      <p><br /></p>
+
+      <div class="member-description">
+        <p>Research topics: Intra-process isolation. OS kernel security.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/jihwan.jpg" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Jihwan Lee</b></h4>
+      <h4>Undergraduate-Master’s Integrated Student</h4>
+      <p><img src="https://sslab.skku.edu/images/emails/jh.png" style="width: 140px; height: auto; margin-top: 0px; margin-bottom: 0px; box-shadow: None;" /><br /><!--   <i><br>email: <hwan3526@g.skku.edu></i>
+ --><br /></p>
+
+      <div class="member-description">
+        <p>JiHwan Lee is currently an Undergraduate-Master’s integrated student at Sungkyunkwan University, South Korea. He is majoring in Computer Science. His main research interest is Decentralized identity, and Disaggregated clouds.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Soohwan Shin</b></h4>
+      <h4>Master’s student</h4>
+      <!--   <i><br>email: <></i>
+ -->
+      <p><br /></p>
+
+      <div class="member-description">
+        <p>Research topics: Privacy in ML. ML for security.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/bio-photo.jpg" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Myungkyu Sim</b></h4>
+      <h4>Master Student</h4>
+      <p><img src="https://sslab.skku.edu/images/emails/mk.png" style="width: 140px; height: auto; margin-top: 0px; margin-bottom: 0px; box-shadow: None;" /><br /><!--   <i><br>email: <audrb30@g.skku.edu></i>
+ --><br /></p>
+
+      <div class="member-description">
+        <p>MyungKyu Sim is currently an Master student at Sungkyunkwan University, South Korea. He is majoring in Computer Science. His main research interest is Disaggregated clouds.</p>
+      </div>
+    </div>
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/kyuwon.jpg" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Kyuwon Cho</b></h4>
+      <h4>Master Student</h4>
+      <p><img src="https://sslab.skku.edu/images/emails/kw.png" style="width: 140px; height: auto; margin-top: 0px; margin-bottom: 0px; box-shadow: None;" /><br /><!--   <i><br>email: <></i>
+ --><br /></p>
+
+      <div class="member-description">
+        <p>Kyuwon Cho is currently a Master student at SungKyunKwan University, South Korea. He is majoring in Computer Science. His main research interests are isolation and fuzzing.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6 clearfix">
+      <p><img src="https://sslab.skku.edu/images/profile-pic/" onerror="this.src='https://sslab.skku.edu/images/profile-pic/bio-photo.jpg'" class="img-responsive" width="150px" style="float: left" /></p>
+      <h4><b>Jongyoon Kim</b></h4>
+      <h4>Undergraduate Intern</h4>
+      <!--   <i><br>email: <></i>
+ -->
+      <p><br /></p>
+
+      <div class="member-description">
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<h3 id="undergraduate-interns">Undergraduate Interns</h3>
+
+<hr />
+
+<div id="gridid" class="col-sm-12 clearfix">
+
+</div>
+
+<!-- empty space -->
+<p>  
+<!--  --></p>
+
+<!-- Publications -->
+
+<h2 id="publications">Publications</h2>
+
+<hr />
+
+<div class="content-block">
+
+  <p><strong>SE-PIM: In-Memory Acceleration of Data-Intensive Confidential Computing</strong> <br />
+  <em>Kha Dinh Duy, Hojoon Lee</em><br />
+  <strong>IEEE Transactions on Cloud Computing (2022)</strong> <a href="TBD"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>Harnessing the x86 Intermediate Rings for Intra-Process Isolation</strong> <br />
+  <em>Hojoon Lee, Chihyun Song, Brent Byunghoon Kang</em><br />
+  <strong>IEEE Transactions on Dependable and Secure Computing (TDSC) (2022)</strong> <a href="https://ieeexplore.ieee.org/document/9836974"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>Confidential Machine Learning Computation in Untrusted Environments: A Systems Security Perspective</strong> <br />
+  <em>Kha Dinh Duy, Taehyun Noh, Siwon Huh, Hojoon Lee</em><br />
+  <strong>IEEE Access (2021)</strong> <a href="https://ieeexplore.ieee.org/document/9765474"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>A Comprehensive Analysis of Today’s Malware and Its Distribution Network: Common Adversary Strategies and Implications</strong> <br />
+  <em>Siwon Huh, Seonghwan Cho, Jinho Choi, Seungwon Shin, Hojoon Lee</em><br />
+  <strong>IEEE Access (2021)</strong> <a href="https://ieeexplore.ieee.org/document/9765474"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>EmuID: Detecting presence of emulation through microarchitectural characteristic on ARM</strong> <br />
+  <em>Yeseul Choi, Yunjong Jeong, Dahee Jang, Brent Byunghoon Kang,  Hojoon Lee</em><br />
+  <strong>Elsevier Computers &amp; Security (2021)</strong> <a href="https://www.sciencedirect.com/science/article/pii/S016740482100393X"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>Lord of the x86 Rings: A Portable User Mode Privilege Separation Architecture on x86</strong> <br />
+  <em>Hojoon Lee, Chihyun Song, and Brent Byunghoon Kang</em><br />
+  <strong>ACM CCS 2018</strong> <a href="https://dl.acm.org/citation.cfm?id=3243748"><strong>Full Paper</strong></a>  <a href="https://www.youtube.com/watch?v=kBobQMzcW-I"><strong>Talk</strong></a><br /><br /></p>
+
+  <p><strong>ATRA: Address Translation Redirection Attack Against Hardware-based External Monitors</strong> <br />
+  <em>Dahee Jang, Hojoon Lee, Hyungon Moon, Minsu Kim, Daehyeok Kim, Daegyeong Kim, Brent Byunghoon Kang</em><br />
+  <strong>ACM CCS 2014</strong> <a href="https://dl.acm.org/citation.cfm?id=2660303"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>KI-Mon: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object</strong> <br />
+  <em>Hojoon Lee, Hyungon Moon, Daehee Jang, Kihwan Kim, Jihoon Lee, Yunheung Paek, Brent Byunghoon Kang</em><br />
+  <strong>USENIX Security 2013</strong> <a href="https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/lee"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>Vigilare: Toward Snoop-based Kernel Integrity Monitor</strong> <br />
+  <em>Hyungon Moon, Hojoon Lee, Jihoon Lee, Kihwan Kim, Yunheung Paek, Brent Bynghoon Kang</em><br />
+  <strong>ACM CCS 2012</strong> <a href="https://dl.acm.org/citation.cfm?id=2382202"><strong>Full Paper</strong></a>  <br /><br /></p>
+
+  <p><strong>A Dynamic Per-context Verification of Kernel Address Integrity from External Monitors</strong> <br />
+  <em>Hojoon Lee, Minsu Kim, Yunheung Paek, Brent Byunghoon Kang</em><br />
+  <strong>Elsevier Computers &amp; Security</strong>, 77:824 – 837, 2018 <br /><br /></p>
+
+  <p><strong>KI-Mon ARM: A Hardware- assisted Event-triggered Monitoring Platform for Mutable Kernel Object</strong> <br />
+  <em>Hojoon Lee, Hyungon Moon, Daehee Jang, Kihwan Kim, Jihoon Lee, Yunheung Paek, Brent Byunghoon Kang</em><br />
+  <strong>IEEE Transactions on Dependable and Secure Computing (TDSC)</strong>, pages 1–1, 2018 <br /><br /></p>
+
+  <p><strong>Detecting and Preventing Kernel Rootkit Attacks with Bus Snooping</strong> <br />
+  <em>Hyungon Moon, Hojoon Lee, Ingoo Heo, Kihwan Kim, Yunheung Paek, Brent Bynghoon Kang</em><br />
+  <strong>IEEE Transactions on Dependable and Secure Computing (TDSC)</strong>, 14(2):145–157, March 2017 <br /><br /></p>
+
+</div>
+
+<!-- Courses -->
+
+<p><a name="courses"></a></p>
+
+<h2 id="courses">Courses</h2>
+<hr />
+
+<h3 id="current-courses">Current Courses</h3>
+<hr />
+<div style="margin-left: 20px;">
+
+</div>
+<h3 id="past-courses">Past Courses</h3>
+<hr />
+<div style="margin-left: 20px;">
+
+  <p><strong>Spring 2019</strong></p>
+
+  <p>SWE2001: System Program (시스템 프로그램)</p>
+
+  <p>SWE3025: Computer Security (정보보호개론)</p>
+
+  <p><strong>Fall 2019</strong></p>
+
+  <p>ECE5612: Systems and Network Security (전산망보호)</p>
+
+</div>
+
+<!-- Courses -->
+
+<h2 id="sslab-ctf">SSLab-CTF</h2>
+
+<hr />
+
+<div class="content-block">
+
+  <p>Hands-on experience is one of the most important things in learning, especially in cyber security.
+With that in mind, we developed this <a href="https://ctf.skku.edu">Capture The Flag (CTF) platform</a> to aid with the teaching of our courses.</p>
+
+  <p>The SSLab-CTF platform is built upon the open-source <a href="https://ctfd.io/">CTFd</a> platform with modifications to make it suitable for education envirionment.</p>
+
+  <p align="center" style="font-size: 200%; font-style: bold;"><a href="https://ctf.skku.edu">→ To SSLab-CTF ←</a></p>
+
+</div>
+
+
+    </div>
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>
+            &copy 2020 SSLab &commat;
+            <a href="https://www.skku.edu/eng/">Sungkyunkwan University</a>,
+            South Korea.
+            <br />
+            The original website template is from
+            <a href="http://www.allanlab.org/">Allan Lab</a>.
+          </p>
+        </div>
+
+        <div class="col-sm-6">
+          <p>
+            Engineering Building 1 #23123 2066 Seobu-Ro, Jangan-Gu, Suwon-Si,
+            Gyeonggi-Do, Korea, 16419
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  </body>
+
+</html>
