@@ -9,7 +9,7 @@
   job: Undergraduate-Master's Integrated Student
   email : calvin0420@g.skku.edu
   email-pic: sw.png
-  description: Research topics: ML-based code analysis, Malware analysis   
+  description: "Research topics: ML-based code analysis, Malware analysis"
 
 
 - name: Taehyun Noh
@@ -17,7 +17,7 @@
   job: Master's Student
 #  email: hwan3526@g.skku.edu
   # email-pic: jh.png
-  description: Research topics: Intra-process isolation. Safe programming languages.  
+  description: "Research topics: Intra-process isolation. Safe programming languages."
 
 
 - name: Hajeong Lim
@@ -25,7 +25,7 @@
   job: Master's student
 #  email: hwan3526@g.skku.edu
   # email-pic: jh.png
-  description: Research topics: Intra-process isolation. OS kernel security.
+  description: "Research topics: Intra-process isolation. OS kernel security."
 
 
 - name: Jihwan Lee
@@ -33,14 +33,11 @@
   job: Undergraduate-Master's Integrated Student
   email: hwan3526@g.skku.edu
   email-pic: jh.png
-  description: JiHwan Lee is currently an Undergraduate-Master's integrated student at Sungkyunkwan University, South Korea. He is majoring in Computer Science. His main research interest is Decentralized identity, and Disaggregated clouds.
+  description: "JiHwan Lee is currently an Undergraduate-Master's integrated student at Sungkyunkwan University, South Korea. He is majoring in Computer Science. His main research interest is Decentralized identity, and Disaggregated clouds."
 
- - name: Soohwan Shin
-  # photo: jihwan.jpg
+- name: Soohwan Shin
   job: Master's student
-#  email: hwan3526@g.skku.edu
-  # email-pic: jh.png
-  description: Research topics: Privacy in ML. ML for security.
+  description: "Research topics: Privacy in ML. ML for security."
   
 - name: Myungkyu Sim
   photo: bio-photo.jpg
@@ -58,11 +55,7 @@
 
 
 - name: Jongyoon Kim
-#  photo: kyuwon.jpg
-  job: Undergraudate intern
-#  email-pic: kw.png
-#  description: Kyuwon Cho is currently a Master student at SungKyunKwan University, South Korea. He is majoring in Computer Science. His main research interests are isolation and fuzzing.
-
+  job: Undergraduate Intern
 
 
   
