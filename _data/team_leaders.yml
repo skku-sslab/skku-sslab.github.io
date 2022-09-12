@@ -1,0 +1,10 @@
+- name: Hojoon Lee
+  photo: hojoon.jpg
+  job: Assistant Professor
+  email: hojoon.lee@skku.edu
+  email-pic: hojoon.png
+  page: https://hojoon-lee.github.io/
+  cv: https://sslab.skku.edu/resources/hojoonlee-cv.pdf
+  description: 'Prof. Hojoon Lee is currently an assistant professor at
+  <a href="https://cs.skku.edu">Dept. of Computer Science
+  and Engineering</a> at <a href="https://www.skku.edu">Sungkyunkwan University</a> since September, 2019. Prior to his current position, he spent one year as a postdoctoral researcher at <a href="https://www.cispa.saarland">CISPA</a> under supervison of <a href="https://www.infsec.cs.uni-saarland.de/~backes/">Prof. Michael Backes</a>. He recevied my Ph.D from KAIST in 2018 advised by <a href="https://cysec.kaist.ac.kr/brentkang/brentkang.html">Prof. Brent Byunghoon Kang</a> and his B.S. from <a href="https://www.utexas.edu">The University of Texas at Austin</a>. His main research interests lie in retrofitting security in computing systems against today’s advanced threats. His research interests include but not limited to Operating System Security, Trusted Execution Environments, Program Analysis, Software Security, and Secure AI Computation in Cloud.'

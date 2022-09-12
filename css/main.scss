@@ -1,0 +1,243 @@
+---
+---
+
+@import "bootstrap";
+
+img {
+  margin-bottom: 24px;
+  margin-top: 17px;
+  border-radius: 2%;
+}
+
+body {
+  padding-top: 70px;
+  background-color: #fffff0;
+}
+
+figcaption {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+/* Top navigation bar */
+
+p.byline {
+  text-align: center;
+  /* 	font-size: 18px;
+	line-height: 36px; */
+  margin-top: -24px;
+  margin-bottom: 48px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "Fira Sans", "KoPub Dotum", sans-serif;
+}
+
+pubtit {
+  font-weight: bold;
+}
+
+firstp {
+}
+
+.navbar-nav {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+.navbar-nav > li > a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  flex: 1 auto;
+  transition: opacity 0.1s ease-in-out;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+}
+
+.navbar-nav > li > a:hover {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.navbar-nav > li > a:active {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.navbar-nav > li > .active {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: bold;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand img {
+  height: 50px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.navbar {
+  background-color: #000000;
+  border: 0px;
+  height: 60px;
+  margin: 0px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 900px; /* or 950px */
+}
+
+/* Home, News */
+#newsid p {
+  text-align: left;
+}
+
+#newsid {
+  padding-right: 0px;
+}
+.well {
+  color: #00ff00;
+  border: dashed 1px rgba(0, 255, 0, 0.9);
+  background-color: #000;
+}
+.well p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 13px;
+  line-height: 1;
+}
+.well a:visited,
+a:active {
+  font-family: "Source Code Pro", monospace;
+  color: #00ff00;
+}
+
+#homeidtmp h1 {
+  text-align: center;
+}
+
+#newsid img {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+//  For content blocks
+.content-block {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px !important;
+}
+.member-description {
+  text-align: justify;
+  margin-left: 10px;
+}
+
+/* Team & Publications */
+#gridid img {
+  margin: 16px 22px 6px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888888;
+}
+#homeid img {
+  margin: 0 0 0 0;
+  border-radius: 5%;
+  box-shadow: 0px 0px 0px #888888;
+}
+#picid img {
+  margin: 6px 3px 60px 6px;
+  border-radius: 1%;
+  box-shadow: 2px 2px 5px #888888;
+}
+#gridid .row {
+  margin-bottom: 24px;
+}
+
+#gridid p {
+  font-size: 15px;
+}
+#gridid a {
+  text-decoration: underline;
+}
+
+.research-row p {
+  font-size: 20px !important;
+}
+/* Grid overrides */
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.col-golden-sm {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 38.196601125010524%;
+}
+.col-golden-lg {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 61.803398874989476%;
+}
+.col-golden-offset-sm {
+  margin-left: 38.196601125010524%;
+}
+.col-golden-offset-lg {
+  margin-left: 61.803398874989476%;
+}
+/* Grid overrides */
+.col-sm-4 {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+/* Carusel */
+
+.carousel {
+  border-radius: 3px 3px 3px 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.carousel-inner > .item {
+  height: 300px;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 800px;
+  width: auto;
+}
+
+.panel-footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  transform: translate(-1px); // Fix weird bug
+}

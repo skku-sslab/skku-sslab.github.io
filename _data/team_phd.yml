@@ -1,0 +1,68 @@
+- name: Duy Kha Dinh
+  photo: khadinh.jpg
+  job: Intergrated Master-PhD Student
+  email-pic: kha.png
+  description: Kha Dinh is currently an integrated MS-PhD student at Sungkyunkwan University, South Korea. He graduated from Hochiminh University of Technology, Vietnam in 2018, majored in Computer Science. His main research interests are Trusted Execution Environments, Hardware Assisted Security and designing secure systems. 
+
+- name: Siwon Heo
+  photo: siwon.jpg
+  job: Undergraduate-Master's Integrated Student
+  email : calvin0420@g.skku.edu
+  email-pic: sw.png
+  description: Research topics: ML-based code analysis, Malware analysis   
+
+
+- name: Taehyun Noh
+  # photo: jihwan.jpg
+  job: Master's Student
+#  email: hwan3526@g.skku.edu
+  # email-pic: jh.png
+  description: Research topics: Intra-process isolation. Safe programming languages.  
+
+
+- name: Hajeong Lim
+  # photo: jihwan.jpg
+  job: Master's student
+#  email: hwan3526@g.skku.edu
+  # email-pic: jh.png
+  description: Research topics: Intra-process isolation. OS kernel security.
+
+
+- name: Jihwan Lee
+  photo: jihwan.jpg
+  job: Undergraduate-Master's Integrated Student
+  email: hwan3526@g.skku.edu
+  email-pic: jh.png
+  description: JiHwan Lee is currently an Undergraduate-Master's integrated student at Sungkyunkwan University, South Korea. He is majoring in Computer Science. His main research interest is Decentralized identity, and Disaggregated clouds.
+
+ - name: Soohwan Shin
+  # photo: jihwan.jpg
+  job: Master's student
+#  email: hwan3526@g.skku.edu
+  # email-pic: jh.png
+  description: Research topics: Privacy in ML. ML for security.
+  
+- name: Myungkyu Sim
+  photo: bio-photo.jpg
+  job: Master Student
+  email: audrb30@g.skku.edu
+  email-pic: mk.png
+  description: MyungKyu Sim is currently an Master student at Sungkyunkwan University, South Korea. He is majoring in Computer Science. His main research interest is Disaggregated clouds.
+
+- name: Kyuwon Cho
+  photo: kyuwon.jpg
+  job: Master Student
+  email-pic: kw.png
+  description: Kyuwon Cho is currently a Master student at SungKyunKwan University, South Korea. He is majoring in Computer Science. His main research interests are isolation and fuzzing.
+
+
+
+- name: Jongyoon Kim
+#  photo: kyuwon.jpg
+  job: Undergraudate intern
+#  email-pic: kw.png
+#  description: Kyuwon Cho is currently a Master student at SungKyunKwan University, South Korea. He is majoring in Computer Science. His main research interests are isolation and fuzzing.
+
+
+
+  

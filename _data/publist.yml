@@ -1,0 +1,70 @@
+- title: 'SE-PIM: In-Memory Acceleration of Data-Intensive Confidential Computing'
+  authors: Kha Dinh Duy, Hojoon Lee
+  conference: IEEE Transactions on Cloud Computing (2022)
+  paper: TBD
+
+
+- title: 'Harnessing the x86 Intermediate Rings for Intra-Process Isolation'
+  authors: Hojoon Lee, Chihyun Song, Brent Byunghoon Kang  
+  conference: IEEE Transactions on Dependable and Secure Computing (TDSC) (2022)
+  paper: https://ieeexplore.ieee.org/document/9836974
+
+- title: 'Confidential Machine Learning Computation in Untrusted Environments: A Systems Security Perspective'
+  authors: Kha Dinh Duy, Taehyun Noh, Siwon Huh, Hojoon Lee
+  conference: IEEE Access (2021)
+  paper: https://ieeexplore.ieee.org/document/9765474
+
+- title: 'A Comprehensive Analysis of Today’s Malware and Its Distribution Network: Common Adversary Strategies and Implications'
+  authors: Siwon Huh, Seonghwan Cho, Jinho Choi, Seungwon Shin, Hojoon Lee
+  conference: IEEE Access (2021)
+  paper: https://ieeexplore.ieee.org/document/9765474
+
+- title: 'EmuID: Detecting presence of emulation through microarchitectural characteristic on ARM'
+  authors: Yeseul Choi, Yunjong Jeong, Dahee Jang, Brent Byunghoon Kang,  Hojoon Lee
+  conference: Elsevier Computers & Security (2021)
+  paper: https://www.sciencedirect.com/science/article/pii/S016740482100393X
+  
+- title: 'Lord of the x86 Rings: A Portable User Mode Privilege Separation Architecture on x86'
+  authors: Hojoon Lee, Chihyun Song, and Brent Byunghoon Kang
+  conference: ACM CCS 2018
+  paper: https://dl.acm.org/citation.cfm?id=3243748
+  talk: https://www.youtube.com/watch?v=kBobQMzcW-I
+
+- title: 'ATRA: Address Translation Redirection Attack Against Hardware-based External Monitors'
+  authors: Dahee Jang, Hojoon Lee, Hyungon Moon, Minsu Kim, Daehyeok Kim, Daegyeong Kim, Brent Byunghoon Kang
+  conference: ACM CCS 2014
+  paper: https://dl.acm.org/citation.cfm?id=2660303
+  talk:
+
+- title: 'KI-Mon: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object'
+  authors: Hojoon Lee, Hyungon Moon, Daehee Jang, Kihwan Kim, Jihoon Lee, Yunheung Paek, Brent Byunghoon Kang
+  conference: USENIX Security 2013
+  paper: https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/lee
+  talk:
+
+- title: 'Vigilare: Toward Snoop-based Kernel Integrity Monitor'
+  authors: Hyungon Moon, Hojoon Lee, Jihoon Lee, Kihwan Kim, Yunheung Paek, Brent Bynghoon Kang
+  conference: ACM CCS 2012
+  paper: https://dl.acm.org/citation.cfm?id=2382202
+  talk:
+
+- title: 'A Dynamic Per-context Verification of Kernel Address Integrity from External Monitors'
+  authors: Hojoon Lee, Minsu Kim, Yunheung Paek, Brent Byunghoon Kang
+  conference: Elsevier Computers & Security 
+  info: 77:824 – 837, 2018
+  paper: 
+  talk:
+
+- title: 'KI-Mon ARM: A Hardware- assisted Event-triggered Monitoring Platform for Mutable Kernel Object'
+  authors: Hojoon Lee, Hyungon Moon, Daehee Jang, Kihwan Kim, Jihoon Lee, Yunheung Paek, Brent Byunghoon Kang
+  conference: IEEE Transactions on Dependable and Secure Computing (TDSC)
+  info:  pages 1–1, 2018
+  paper: 
+  talk:
+
+- title: 'Detecting and Preventing Kernel Rootkit Attacks with Bus Snooping'
+  authors: Hyungon Moon, Hojoon Lee, Ingoo Heo, Kihwan Kim, Yunheung Paek, Brent Bynghoon Kang
+  conference: IEEE Transactions on Dependable and Secure Computing (TDSC)
+  info: 14(2):145–157, March 2017
+  paper: 
+  talk:

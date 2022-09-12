@@ -1,0 +1,16 @@
+
+<div class="well">
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+
+<p style="text-align: center;"><b>News</b></p>
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+{% for article in site.data.news limit:6 %}
+<b>\- [{{ article.date }}]</b>
+
+{{ article.headline }}
+{% endfor %}
+
+<u><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">All news...</a></u>
+
+</div>
